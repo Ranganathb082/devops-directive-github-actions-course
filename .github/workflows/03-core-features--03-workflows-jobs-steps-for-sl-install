@@ -1,4 +1,4 @@
-name: Workflows, Jobs, and Steps for sl installation
+name: Workflows, Jobs, and Steps for sl installation 
 
 on:
   workflow_dispatch:
