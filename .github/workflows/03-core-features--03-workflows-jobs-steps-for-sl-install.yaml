@@ -13,7 +13,7 @@ jobs:
   job-2:
     runs-on: ubuntu-24.04
     steps:
-      - run: apt install -y sl
+      - run: sudo apt install -y sl
   job-3:
     runs-on: ubuntu-24.04
     needs:
