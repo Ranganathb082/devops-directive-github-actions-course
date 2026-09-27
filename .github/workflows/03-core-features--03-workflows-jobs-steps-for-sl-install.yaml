@@ -15,6 +15,9 @@ jobs:
     steps:
       - run: sudo apt install -y sl
       - run: sl
+        env:
+          TERM: xterm
+      
   job-3:
     runs-on: ubuntu-24.04
     needs:
